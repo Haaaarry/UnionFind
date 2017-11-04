@@ -4,6 +4,7 @@ class WeightedQuickUnionUF{
       private int m_iMostUnionedSites;
       private int []m_iMax
       
+      
       public WeightedQuickUnionUF(int N){
            m_iParent=new int [N];
            m_iSize=new int [N];
@@ -53,4 +54,6 @@ class WeightedQuickUnionUF{
           int rootI=root(i);
           return m_iMax[rootI];
      }
+     
+  
 } 
